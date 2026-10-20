@@ -20,8 +20,8 @@
 #include "driver/ledc.h"
 #include "cJSON.h"
 
-#define WIFI_SSID "MOB-SOLAR-PA"
-#define WIFI_PASS "96238872"
+#define WIFI_SSID ""
+#define WIFI_PASS ""
 
 static volatile bool g_time_synced = false;
 
