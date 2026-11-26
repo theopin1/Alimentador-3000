@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --color-zinc-50: #fff0e3;
+  --color-zinc-100: #ffe0c7;
+  --color-zinc-200: #ffc896;
+  --color-zinc-300: #f5a864;
+  --color-zinc-400: #e08840;
+  --color-zinc-500: #c46e28;
+  --color-zinc-600: #a3551a;
+  --color-zinc-700: #7f4014;
+  --color-zinc-800: #5c2e0f;
+  --color-zinc-900: #42200b;
+  --color-zinc-950: #2a1306;
+}
+
+:root {
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color-scheme: light;
+  color: #42200b;
+  background-color: #fff0e3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  min-height: 100svh;
+}
+
+body {
+  display: flex;
+}
+
+#root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}

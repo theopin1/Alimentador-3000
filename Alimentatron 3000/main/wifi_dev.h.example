@@ -1,0 +1,18 @@
+/*
+ * Wi-Fi fixo para testes locais.
+ *
+ * Copie este arquivo para "wifi_dev.h" (na mesma pasta) e preencha.
+ * O wifi_dev.h está no .gitignore, então a senha não vai para o repositório.
+ *
+ * Com o wifi_dev.h presente, o firmware:
+ *   - conecta direto nesta rede, sem SmartConfig;
+ *   - não grava esta rede na flash (a rede configurada pelo app continua salva);
+ *   - fica tentando reconectar para sempre, sem entrar no modo de configuração.
+ *
+ * Para voltar ao modo normal (app ESP-Touch), apague ou renomeie o wifi_dev.h
+ * e recompile.
+ */
+#pragma once
+
+#define WIFI_DEV_SSID "NomeDaRede"
+#define WIFI_DEV_PASS "SenhaDaRede"
